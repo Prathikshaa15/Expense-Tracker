@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(135deg, #c2e9fb, #f9c2d9);
+  font-family: "Poppins", sans-serif;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-card {
+  background: white;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 191, 255, 0.3);
+  text-align: center;
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+
+.register-card:hover {
+  transform: scale(1.02);
+}
+
+.register-card h2 {
+  background: linear-gradient(90deg, #00bfff, #ff69b4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.register-card input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+}
+
+.register-card button {
+  background: linear-gradient(90deg, #00bfff, #ff69b4);
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.register-card button:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+.switch-link {
+  color: #ff69b4;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.switch-link:hover {
+  color: #00bfff;
+}
